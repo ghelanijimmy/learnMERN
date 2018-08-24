@@ -1,0 +1,36 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "learn mern",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghelanijimmy/learnMERN.git"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "Jimmy Ghelani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghelanijimmy/learnMERN/issues"
+  },
+  "homepage": "https://github.com/ghelanijimmy/learnMERN#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
